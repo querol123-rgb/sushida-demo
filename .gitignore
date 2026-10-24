@@ -1,0 +1,4 @@
+data/*.db
+data/*.db-*
+data/ADMIN_CREDENTIALS.txt
+node_modules/
