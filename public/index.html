@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sushida Malahide · Japanese Restaurant & Sushi Delivery</title>
+  <meta name="description" content="Fresh sushi, ramen and bento in the heart of Malahide. Order online for delivery or collection, or book a table at Sushida Malahide.">
+  <meta name="theme-color" content="#0f0d0c">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Shippori+Mincho:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="demo-banner" role="note">DEMO / CONCEPT — not the official Sushida website. Do not enter real personal details. Orders are not sent to the restaurant.</div>
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#/" class="logo" aria-label="Sushida Malahide home">
+        <span class="logo-mark">寿</span>
+        <span class="logo-text"><span>SUSHI<em>DA</em></span><small>Malahide</small></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#/menu">Menu</a>
+        <a href="#/book">Book a table</a>
+        <a href="#/?s=visit">Visit</a>
+        <span id="navAccount"></span>
+      </nav>
+      <div class="nav-actions">
+        <span class="open-pill" id="openPill"></span>
+        <button class="cart-btn" id="cartBtn" aria-label="Open basket">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 7h12l-1 13H7L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="logo footer-logo"><span class="logo-mark">寿</span><span class="logo-text"><span>SUSHI<em>DA</em></span><small>Malahide</small></span></div>
+        <p class="muted">Irish produce, Japanese tradition.<br>Unit 1, First Floor, New Street Mall,<br>26 New Street, Malahide, Co. Dublin K36 Y181</p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p class="muted">Monday – Sunday<br>12:00 – 22:00</p>
+        <p class="muted small">Same-day online bookings until 2pm</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="tel:+35318450809">01 845 0809</a><br><a href="mailto:malahide@sushida.ie">malahide@sushida.ie</a></p>
+        <p class="muted small">Also in Dún Laoghaire · Rathmines · Sandyford</p>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Sushida Malahide</p>
+  </footer>
+
+  <!-- Basket drawer -->
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" id="drawer" aria-label="Basket">
+    <div class="drawer-head">
+      <h3>Your order</h3>
+      <button class="icon-btn" id="closeDrawer" aria-label="Close basket">✕</button>
+    </div>
+    <div class="drawer-body" id="drawerBody"></div>
+    <div class="drawer-foot" id="drawerFoot"></div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
