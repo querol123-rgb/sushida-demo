@@ -1,0 +1,170 @@
+{
+  "_note": "Sushida Malahide menu, taken from the restaurant's online ordering page (sushida.ie/malahide, Flipdish) on 2026-10-24. Prices in EUR. Tags: popular, veg, spicy, new.",
+  "categories": [
+    {
+      "id": "special-rolls",
+      "name": "Special Sushi Rolls",
+      "jp": "特製ロール",
+      "desc": "8 pcs per portion.",
+      "items": [
+        { "id": "aburi-salmon-roll", "name": "Aburi Salmon Roll", "desc": "Seared salmon, avocado, orange masago, gochujang, kewpie mayonnaise, kimchi sauce and microgreen.", "price": 21.50, "tags": ["popular"] },
+        { "id": "sushida-roll", "name": "Sushida Roll", "desc": "Crab stick, cucumber, tempura prawn, eel, topped with mayo, eel sauce, masago and katsuobushi flake.", "price": 21.95, "tags": ["popular"] },
+        { "id": "chilli-salmon-roll", "name": "Chilli Salmon Roll", "desc": "Spicy salmon, avocado, topped with Japanese chilli powder, scallions and spicy mayo.", "price": 20.50, "tags": ["spicy"] },
+        { "id": "rainbow-roll", "name": "Rainbow Roll", "desc": "California roll topped with 6 of chef's selection fish slices, avocado slices, eel sauce, green and orange masago.", "price": 20.95, "tags": [] },
+        { "id": "dragon-roll", "name": "Dragon Roll", "desc": "Breaded Argentine red shrimp, avocado, masago, Kewpie mayonnaise and sweet teriyaki sauce.", "price": 20.95, "tags": ["popular"] },
+        { "id": "vegetarian-roll", "name": "Vegetarian Roll", "desc": "Mixed salad, asparagus, inari (tofu), avocado, pickled radish and cucumber.", "price": 19.95, "tags": ["veg"] },
+        { "id": "roasted-duck-roll", "name": "Roasted Duck Roll", "desc": "Roasted duck with sweet teriyaki glaze and scallion, wrapped with sliced cucumber and mixed sesame seeds.", "price": 20.95, "tags": [] },
+        { "id": "unagi-kabayaki-roll", "name": "Unagi Kabayaki Roll", "desc": "Grilled eel fillet with sweet teriyaki or kabayaki sauce, avocado, cucumber and sesame seeds.", "price": 21.50, "tags": [] },
+        { "id": "shichimi-tuna-roll", "name": "Shichimi Tuna Roll", "desc": "Yellowfin tuna, avocado, topped with Japanese 7 spice, scallions and spicy mayonnaise.", "price": 22.95, "tags": ["spicy"] },
+        { "id": "seafood-futomaki-roll", "name": "Seafood Futomaki Roll", "desc": "Salmon, tuna, crab stick, sushi prawn, topped with masago, sesame and eel sauce.", "price": 20.50, "tags": [] },
+        { "id": "spider-roll", "name": "Spider Roll", "desc": "Tempura soft shell crab, topped with katsuobushi fish flake, eel sauce and masago.", "price": 21.95, "tags": [] },
+        { "id": "tempura-california-roll", "name": "Tempura California Roll", "desc": "Fried California roll in tempura batter, topped with mayo, eel sauce and masago.", "price": 20.95, "tags": [] },
+        { "id": "avo-lover-roll", "name": "Avo Lover Roll", "desc": "Avocado, topped with finely sliced avocado and sesame.", "price": 18.50, "tags": ["veg"] }
+      ]
+    },
+    {
+      "id": "rolls",
+      "name": "Maki Rolls",
+      "jp": "巻き寿司",
+      "desc": "Norimaki (medium) and hosomaki (small) rolls, 8 pcs per portion.",
+      "items": [
+        { "id": "ebi-tempura-masago-roll", "name": "Ebi Tempura Masago Roll", "desc": "Medium roll · 8 pcs.", "price": 10.95, "tags": [] },
+        { "id": "salmon-avocado-roll", "name": "Salmon Avocado Roll", "desc": "Medium roll · 8 pcs.", "price": 10.95, "tags": ["popular"] },
+        { "id": "california-roll", "name": "California Roll", "desc": "Medium roll · 8 pcs.", "price": 10.50, "tags": [] },
+        { "id": "chicken-katsu-roll", "name": "Chicken Katsu Roll", "desc": "Medium roll · 8 pcs.", "price": 10.95, "tags": [] },
+        { "id": "smoked-salmon-cream-cheese-roll", "name": "Smoked Salmon Cream Cheese Avocado Roll", "desc": "Medium roll · 8 pcs.", "price": 10.95, "tags": [] },
+        { "id": "avocado-roll", "name": "Avocado Roll", "desc": "Medium roll · 8 pcs.", "price": 9.95, "tags": ["veg"] },
+        { "id": "tuna-roll", "name": "Tuna Roll", "desc": "Small roll · 8 pcs.", "price": 8.50, "tags": [] },
+        { "id": "cucumber-roll", "name": "Cucumber Roll", "desc": "Small roll · 8 pcs.", "price": 6.50, "tags": ["veg"] },
+        { "id": "spicy-salmon-roll", "name": "Spicy Salmon Roll", "desc": "Small roll · 8 pcs.", "price": 7.95, "tags": ["spicy"] },
+        { "id": "salmon-roll", "name": "Salmon Roll", "desc": "Small roll · 8 pcs.", "price": 7.50, "tags": [] },
+        { "id": "spicy-tuna-roll", "name": "Spicy Tuna Roll", "desc": "Small roll · 8 pcs.", "price": 8.95, "tags": ["spicy"] }
+      ]
+    },
+    {
+      "id": "nigiri",
+      "name": "Nigiri & Aburi",
+      "jp": "握り",
+      "desc": "2 pieces per portion. Aburi nigiri is partially flame-grilled.",
+      "items": [
+        { "id": "salmon-nigiri", "name": "Salmon Nigiri", "desc": "2 pcs.", "price": 4.95, "tags": ["popular"] },
+        { "id": "tuna-nigiri", "name": "Tuna Nigiri", "desc": "2 pcs.", "price": 5.75, "tags": [] },
+        { "id": "seabass-nigiri", "name": "Seabass Nigiri", "desc": "2 pcs.", "price": 4.70, "tags": [] },
+        { "id": "king-prawn-nigiri", "name": "King Prawn Nigiri", "desc": "2 pcs.", "price": 4.85, "tags": [] },
+        { "id": "eel-nigiri", "name": "Eel Nigiri", "desc": "2 pcs.", "price": 5.25, "tags": [] },
+        { "id": "surf-clam-nigiri", "name": "Surf Clam Nigiri", "desc": "2 pcs.", "price": 5.25, "tags": [] },
+        { "id": "mackerel-nigiri", "name": "Mackerel Nigiri", "desc": "2 pcs.", "price": 4.50, "tags": [] },
+        { "id": "squid-nigiri", "name": "Squid Nigiri", "desc": "2 pcs.", "price": 4.50, "tags": [] },
+        { "id": "octopus-nigiri", "name": "Octopus Nigiri", "desc": "2 pcs.", "price": 4.50, "tags": [] },
+        { "id": "avocado-nigiri", "name": "Avocado Nigiri", "desc": "2 pcs.", "price": 4.00, "tags": ["veg"] },
+        { "id": "inari-nigiri", "name": "Inari (Tofu) Nigiri", "desc": "2 pcs.", "price": 4.20, "tags": ["veg"] },
+        { "id": "aburi-salmon-brown-sugar", "name": "Aburi Salmon with Brown Sugar", "desc": "Flame-seared nigiri · 2 pcs.", "price": 6.25, "tags": ["popular"] },
+        { "id": "aburi-mackerel", "name": "Aburi Mackerel with Kewpie Mayo & Masago", "desc": "Flame-seared nigiri · 2 pcs.", "price": 5.95, "tags": [] },
+        { "id": "aburi-seabass-plum", "name": "Aburi Seabass with Plum Sauce", "desc": "Flame-seared nigiri · 2 pcs.", "price": 5.95, "tags": [] }
+      ]
+    },
+    {
+      "id": "sashimi-platters",
+      "name": "Sashimi & Platters",
+      "jp": "刺身",
+      "desc": "Sashimi is thinly sliced fish served without rice. Platters are the chef's selection.",
+      "items": [
+        { "id": "salmon-sashimi", "name": "Salmon Sashimi", "desc": "5 pcs.", "price": 9.50, "tags": ["popular"] },
+        { "id": "tuna-sashimi", "name": "Tuna Sashimi", "desc": "5 pcs.", "price": 13.50, "tags": [] },
+        { "id": "seabass-sashimi", "name": "Seabass Sashimi", "desc": "6 pcs.", "price": 9.50, "tags": [] },
+        { "id": "surf-clam-sashimi", "name": "Surf Clam Sashimi", "desc": "6 pcs.", "price": 10.95, "tags": [] },
+        { "id": "osaka-platter", "name": "Osaka Platter", "desc": "6 pcs of nigiri sushi and 8 pcs of small sushi roll.", "price": 21.95, "tags": [] },
+        { "id": "kyoto-sashimi-platter", "name": "Kyoto Sashimi Platter", "desc": "14 pcs of freshly sliced sashimi.", "price": 29.95, "tags": [] },
+        { "id": "nagoya-platter", "name": "Nagoya Platter", "desc": "8 pcs of nigiri sushi, 4 pcs of medium sushi roll and 4 pcs of sashimi.", "price": 31.95, "tags": [] },
+        { "id": "sushida-platter", "name": "Sushida Platter", "desc": "16 pcs of nigiri, 4 pcs of special roll, 8 pcs of medium roll and 8 pcs of sashimi. Perfect to share.", "price": 59.95, "tags": ["popular"] }
+      ]
+    },
+    {
+      "id": "japas",
+      "name": "Japas",
+      "jp": "前菜",
+      "desc": "Japanese tapas.",
+      "items": [
+        { "id": "edamame", "name": "Edamame", "desc": "Young soya beans steamed and seasoned with salt.", "price": 7.00, "tags": ["veg"] },
+        { "id": "spiced-edamame", "name": "Spiced Edamame", "desc": "Young soya beans seasoned with chillies and garlic sauce.", "price": 7.95, "tags": ["veg", "spicy"] },
+        { "id": "miso-soup", "name": "Miso Soup", "desc": "Classic miso soup.", "price": 3.00, "tags": ["veg"] },
+        { "id": "ebi-gyoza", "name": "Ebi Gyoza", "desc": "Japanese-style steamed and grilled prawn dumplings, served with gyoza sauce.", "price": 9.95, "tags": ["popular"] },
+        { "id": "chicken-gyoza", "name": "Chicken Gyoza", "desc": "Japanese-style fried dumplings, served with gyoza sauce.", "price": 9.50, "tags": [] },
+        { "id": "yasai-gyoza", "name": "Yasai Gyoza", "desc": "Japanese-style fried vegetable dumplings, served with gyoza sauce.", "price": 9.50, "tags": ["veg"] },
+        { "id": "tori-kara-age", "name": "Tori Kara Age", "desc": "Deep-fried marinated chicken topped with Japanese seven spice powder.", "price": 9.95, "tags": ["popular"] },
+        { "id": "takoyaki", "name": "Takoyaki", "desc": "Grilled octopus balls topped with chef's special sauce, mayo, nori and katsuobushi flake.", "price": 9.50, "tags": [] },
+        { "id": "shichimi-squid", "name": "Shichimi Squid", "desc": "Deep-fried squid coated with Japanese 7 spice and sweet vinegar.", "price": 9.95, "tags": [] },
+        { "id": "creamy-prawn-tempura", "name": "Creamy Prawn Tempura", "desc": "Deep-fried tempura prawn coated with creamy miso mayo and capelin roe.", "price": 10.95, "tags": [] },
+        { "id": "purple-sweet-potato-tempura", "name": "Purple Sweet Potato Tempura", "desc": "Purple sweet potato in a light crispy batter, served with Kewpie mayonnaise.", "price": 9.75, "tags": ["veg"] },
+        { "id": "piri-kara-tofu-salad", "name": "Piri Kara Tofu & Avocado Salad", "desc": "Shichimi and soy marinated tofu with sweet teriyaki sauce.", "price": 9.75, "tags": ["veg"] },
+        { "id": "broccolini-goma-ae", "name": "Broccolini Goma-ae", "desc": "Grilled tenderstem broccoli with umami sesame dressing.", "price": 9.75, "tags": ["veg"] }
+      ]
+    },
+    {
+      "id": "ramen",
+      "name": "Ramen",
+      "jp": "ラーメン",
+      "desc": "Spicy option available - just add a note at checkout.",
+      "items": [
+        { "id": "tonkotsu-ramen", "name": "Tonkotsu Ramen", "desc": "Slow-cooked chicken and pork bone broth, chashu, beansprouts, pak choi, black fungus, soft-boiled egg, spring onion and sesame.", "price": 19.95, "tags": ["popular"] },
+        { "id": "chicken-ramen", "name": "Chicken Ramen", "desc": "Slow-cooked chicken and pork bone broth, grilled chicken breast, pak choi, black fungus, menma, soft-boiled egg and spring onion.", "price": 19.95, "tags": [] },
+        { "id": "seafood-miso-ramen", "name": "Seafood Miso Ramen", "desc": "Miso broth with prawn tempura, fish cake, squid, grilled salmon, mussels, scallop, seaweed and spring onion.", "price": 20.95, "tags": [] },
+        { "id": "yasai-miso-ramen", "name": "Yasai Miso Ramen", "desc": "Miso broth with fried tofu, menma, mixed vegetables and spring onion.", "price": 18.95, "tags": ["veg"] }
+      ]
+    },
+    {
+      "id": "mains",
+      "name": "Mains, Donburi & Teriyaki Soba",
+      "jp": "主菜",
+      "desc": "Classic mains come with steamed rice. Donburi: rice topped with edamame, sweet teriyaki and sesame. Teriyaki soba is served on a sizzling hot plate with egg noodles, vegetables and tenderstem broccoli.",
+      "items": [
+        { "id": "chicken-katsu-curry", "name": "Chicken Katsu Curry", "desc": "Breaded chicken fillet with Japanese curry sauce, salad, Japanese pickles and steamed rice.", "price": 20.50, "tags": ["popular"] },
+        { "id": "tatsuta-chicken", "name": "Tatsuta Chicken", "desc": "Soy and ginger marinated chicken breast, crispy fried, with stir-fried vegetables, teriyaki sauce, salad and steamed rice.", "price": 20.50, "tags": [] },
+        { "id": "chicken-teriyaki-don", "name": "Sweet Sesame Chicken Teriyaki Don", "desc": "Donburi rice bowl.", "price": 19.95, "tags": [] },
+        { "id": "shichimi-tofu-don", "name": "Shichimi Tofu Don", "desc": "Donburi rice bowl.", "price": 18.95, "tags": ["veg"] },
+        { "id": "eel-don", "name": "Eel Don", "desc": "Donburi rice bowl.", "price": 21.95, "tags": [] },
+        { "id": "chicken-teriyaki-soba", "name": "Chicken Teriyaki Soba", "desc": "Sizzling hot plate.", "price": 22.50, "tags": [] },
+        { "id": "salmon-teriyaki-soba", "name": "Salmon Teriyaki Soba", "desc": "Sizzling hot plate.", "price": 23.95, "tags": [] },
+        { "id": "seabass-teriyaki-soba", "name": "Seabass Teriyaki Soba", "desc": "Sizzling hot plate.", "price": 24.50, "tags": [] },
+        { "id": "ribeye-teriyaki-soba", "name": "Irish Ribeye Steak Teriyaki Soba", "desc": "Sizzling hot plate.", "price": 26.95, "tags": [] },
+        { "id": "tofu-teriyaki-soba", "name": "Tofu Teriyaki Soba", "desc": "Sizzling hot plate.", "price": 18.50, "tags": ["veg"] }
+      ]
+    },
+    {
+      "id": "fried-rice-noodles",
+      "name": "Fried Rice & Noodles",
+      "jp": "炒飯・焼きそば",
+      "items": [
+        { "id": "sushida-cha-han", "name": "Sushida Cha Han", "desc": "Stir-fried rice with king prawns, chicken, beef, peppers, mushrooms and broccoli, topped with a fried egg, with miso soup.", "price": 19.95, "tags": [] },
+        { "id": "yasai-cha-han", "name": "Yasai Cha Han", "desc": "Vegetable fried rice.", "price": 19.50, "tags": ["veg"] },
+        { "id": "sushida-yaki-soba", "name": "Sushida Yaki Soba", "desc": "Stir-fried egg noodles with tiger prawns, chicken, beef and seasonal vegetables, sesame seeds.", "price": 19.95, "tags": [] },
+        { "id": "seafood-yaki-soba", "name": "Seafood Yaki Soba", "desc": "Stir-fried egg noodles with prawn, salmon, tuna, squid and seasonal vegetables, seaweed.", "price": 20.95, "tags": [] },
+        { "id": "yaki-udon", "name": "Yaki Udon", "desc": "Stir-fried, lightly curried udon with tiger prawns, chicken, seasonal vegetables and Japanese pickles.", "price": 19.95, "tags": [] }
+      ]
+    },
+    {
+      "id": "kids",
+      "name": "Kids Meal",
+      "jp": "お子様",
+      "items": [
+        { "id": "kids-noodles-chicken", "name": "Kids Noodles with Chicken", "desc": "A favourite with our younger guests.", "price": 6.95, "tags": [] },
+        { "id": "kids-fried-rice-chicken", "name": "Kids Fried Rice with Chicken", "desc": "Mild and tasty.", "price": 6.95, "tags": [] }
+      ]
+    },
+    {
+      "id": "extras",
+      "name": "Extras",
+      "jp": "追加",
+      "items": [
+        { "id": "steamed-rice", "name": "Steamed Rice", "desc": "", "price": 2.50, "tags": ["veg"] },
+        { "id": "ajitsuke-tamago", "name": "Ajitsuke Tamago", "desc": "Marinated soft-boiled egg.", "price": 2.50, "tags": [] },
+        { "id": "goma-wakame", "name": "Goma Wakame", "desc": "Sesame seaweed salad.", "price": 2.50, "tags": ["veg"] },
+        { "id": "wakame-sweet-vinegar", "name": "Wakame Seaweed with Sweet Vinegar", "desc": "", "price": 3.00, "tags": ["veg"] },
+        { "id": "japanese-curry-sauce", "name": "Japanese Curry Sauce", "desc": "", "price": 3.00, "tags": [] },
+        { "id": "teriyaki-sauce", "name": "Teriyaki Sauce", "desc": "", "price": 3.00, "tags": [] },
+        { "id": "gari", "name": "Gari (Pickled Ginger)", "desc": "", "price": 2.00, "tags": ["veg"] },
+        { "id": "wasabi", "name": "Wasabi", "desc": "", "price": 2.00, "tags": ["veg"] }
+      ]
+    }
+  ]
+}
