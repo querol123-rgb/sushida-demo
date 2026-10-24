@@ -1,0 +1,22 @@
+{
+  "port": 3000,
+  "restaurant": {
+    "name": "Sushida Malahide",
+    "phone": "01 845 0809",
+    "email": "malahide@sushida.ie",
+    "address": "Unit 1, First Floor, New Street Mall, 26 New Street, Malahide, Co. Dublin, K36 Y181",
+    "timezone": "Europe/Dublin",
+    "openHour": 12,
+    "closeHour": 22
+  },
+  "delivery": {
+    "allowedEircodePrefixes": ["K36", "D13"],
+    "fee": 3.5,
+    "freeOver": 40,
+    "minOrder": 20,
+    "etaMinutes": 45
+  },
+  "collection": {
+    "etaMinutes": 20
+  }
+}
